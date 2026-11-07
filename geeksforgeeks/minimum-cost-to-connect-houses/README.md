@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1">Minimum Cost to Connect Houses</a></h2><h3>Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 14pt;">Given a 2D array <strong>houses[][]</strong>, consisting 2D coordinates {x, y} where each coordinate represents the location of each house, find the minimum cost to connect all the houses of the city.</span></p><p><span style="font-size: 14pt;">The cost of connecting two houses is the Manhattan Distance between the two points (x<sub>i</sub>, y<sub>i</sub>) and (x<sub>j</sub>, y<sub>j</sub>) i.e., |x<sub>i</sub>&nbsp;– x<sub>j</sub>| + |y<sub>i</sub>&nbsp;– y<sub>j</sub>|, where |p| denotes the absolute value of p.</span></p><p><span style="font-size: 14pt;"><strong>Examples :</strong></span></p><pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 5 houses[][] = [[0, 7], [0, 9], [20, 7], [30, 7], [40, 70]]
+<strong>Output: </strong>105<br><strong>Explanation:</strong><br>Connect house 1 (0, 7) and house 2 (0, 9) with cost = 2
+Connect house 1 (0, 7) and house 3 (20, 7) with cost = 20
+Connect house 3 (20, 7) with house 4 (30, 7) with cost = 10 
+At last, connect house 4 (30, 7) with house 5 (40, 70) with cost 73.
+All the houses are connected now.
+The overall minimum cost is 2 + 10 + 20 + 73 = 105.<br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/892720/Web/Other/blobid0_1744176520.jpg" width="375" height="286"><br></span></pre><pre><span style="font-size: 14pt;"><strong>Input: </strong>n = 4 houses[][] = [[0, 0], [1, 1], [1, 3], [3, 0]]
+<strong>Output: </strong>7<br><strong>Explanation:</strong> 
+Connect house 1 (0, 0) with house 2 (1, 1) with cost = 2
+Connect house 2 (1, 1) with house 3 (1, 3) with cost = 2 
+Connect house 1 (0, 0) with house 4 (3, 0) with cost = 3 
+The overall minimum cost is 3 + 2 + 2 = 7.
+</span></pre></div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>Directi</code>&nbsp;<code>Google</code>&nbsp;<code>Nutanix</code>&nbsp;<code>Flipkart</code>&nbsp;<code>Uber</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Graph</code>&nbsp;<code>Minimum Spanning Tree</code>&nbsp;<code>Priority Queue</code>&nbsp;<code>union-find</code>&nbsp;
